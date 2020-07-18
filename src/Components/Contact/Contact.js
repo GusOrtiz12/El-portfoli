@@ -17,7 +17,7 @@ class Contact extends React.Component{
         <div className="row">
           <div className="eight columns">
             {/* form */}
-            <form method="post" data-netlify="true" netlify-honeypot="bot-field" id="contactForm" name="contactForm">
+            <form method="post" id="contactForm" name="contactForm">
               <fieldset>
                 <div>
                   <label htmlFor="contactName">Name <span className="required">*</span></label>
