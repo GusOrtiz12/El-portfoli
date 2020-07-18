@@ -76,7 +76,7 @@ class Projects extends React.Component{
                 </div>
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
-                    <a href="#modal-06" target="_blank" title>
+                    <a href="https://sad-fermat-e2ca03.netlify.app/" target="_blank" title>
                       <img alt="" src="images/GuessingGame.png" />
                       <div className="overlay">
                         <div className="portfolio-item-meta">
@@ -115,11 +115,11 @@ class Projects extends React.Component{
                 </div>  {/* item end */}
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
-                    <a href="#modal-09" target="_blank" title>
-                      <img alt="" src="images/GuessingGame.png" />
+                    <a href="https://hopeful-bardeen-4d3c54.netlify.app/" target="_blank" title>
+                      <img alt="" src="images/HotelApp.png" />
                       <div className="overlay">
                         <div className="portfolio-item-meta">
-                          <h5>Project 8</h5>
+                          <h5>Hotel App</h5>
                         </div>
                       </div>
                       <div className="link-icon"><i className="icon-plus" /></div>
