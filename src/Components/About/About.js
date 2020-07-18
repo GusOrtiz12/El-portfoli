@@ -23,7 +23,7 @@ class About extends React.Component{
                 </div>
                 <div className="columns download">
                   <p>
-                    <a href="https://docs.google.com/document/d/1pu_juGuETNWFEuSD11vkNlR-giJQhRdDiE2CdS0ddzU/edit" target="_blank" className="button" download="https://docs.google.com/document/d/1pu_juGuETNWFEuSD11vkNlR-giJQhRdDiE2CdS0ddzU/edit" ><i className="fa fa-download" />Resumé</a>
+                    <a href="https://docs.google.com/document/d/1pu_juGuETNWFEuSD11vkNlR-giJQhRdDiE2CdS0ddzU/edit" target="_blank" className="button" ><i className="fa fa-download" />Resumé</a>
                   </p>
                 </div>
               </div> {/* end row */}
