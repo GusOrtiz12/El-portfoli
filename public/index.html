@@ -15,19 +15,19 @@
   <script src="%PUBLIC_URL%/js/modernizr.js"></script>
   <title>Gus Ortiz Portfolio</title>
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
- 
+
   <title>Gus Ortiz Portfolio</title>
 </head>
 
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>
+  <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+    <input type="text" name="name" />
+    <input type="email" name="email" />
+    <textarea name="message"></textarea>
+  </form>
   <div id="root"></div>
-  <form  method="post" netlify netlify-honeypot="bot-field" id="contactForm" name="contactForm" hidden>
-    <input type="text"  id="contactName" name="contactName" />
-    <input type="text"  id="contactEmail" name="contactEmail" />
-    <input type="text"  id="contactSubject" name="contactSubject" />
-    <textarea id="contactMessage" name="contactMessage"></textarea>
-</form>
+
 </body>
 
 </html>

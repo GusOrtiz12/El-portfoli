@@ -14,43 +14,15 @@ class Contact extends React.Component{
             </p>
           </div>
         </div>
-        <div className="row">
-          <div className="eight columns">
-            {/* form */}
-            <form method="post" id="contactForm" name="contactForm">
-              <fieldset>
-                <div>
-                  <label htmlFor="contactName">Name <span className="required">*</span></label>
-                  <input type="text" defaultValue={" "} size={35} id="contactName" name="contactName" required/>
-                </div>
-                <div>
-                  <label htmlFor="contactEmail">Email <span className="required" >*</span></label>
-                  <input type="text" defaultValue={" "} size={35} id="contactEmail" name="contactEmail" requirerd/>
-                </div>
-                <div>
-                  <label htmlFor="contactSubject">Subject</label>
-                  <input type="text" defaultValue={" "} size={35} id="contactSubject" name="contactSubject" required/>
-                </div>
-                <div>
-                  <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                  <textarea cols={50} rows={15} id="contactMessage" name="contactMessage" defaultValue={""} />
-                </div>
-                <div>
-                  <button className="submit">Submit</button>
-                  <span id="image-loader">
-                    <img alt="" src="images/loader.gif" />
-                  </span>
-                </div>
-              </fieldset>
-            </form> {/* Form End */}
-            {/* contact-warning */}
-            <div id="message-warning"> Error boy</div>
-            {/* contact-success */}
-            <div id="message-success">
-              <i className="fa fa-check" />Your message was sent, thank you!<br />
-            </div>
-          </div>
-            </div>
+        <section className="contact-page-container">
+                    <form name="contact" className="form-container"  method='post'>
+                        <input type="hidden"  name="form-name" value="contact" />
+                        <input type="text"  placeholder="Full Name" className="text-container" name="name"  required/>
+                        <input type="email"  required placeholder="Email" className="text-container" name="email" />
+                        <textarea  required  placeholder="Message" className="text-area"  name="message"></textarea>
+                        <input type="submit" value="Send"/>
+                    </form>
+                </section>
       </section>
       </>
     );
