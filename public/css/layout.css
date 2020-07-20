@@ -116,7 +116,7 @@ header .scrolldown a:hover { color: #E0D3AF; }
    left: 0;
    top: 0;
 }
-.opaque { background-color: #333; }
+.opaque { background-color: white; }
 
 /* hide toggle button */
 #nav-wrap > a.mobile-btn { display: none; }
@@ -145,7 +145,7 @@ ul#nav li a {
    line-height: 32px;
 	text-decoration: none;
    text-align: left;
-   color: grey;
+   color: white;
 
 	-webkit-transition: color .2s ease-in-out;
 	-moz-transition: color .2s ease-in-out;
@@ -214,10 +214,15 @@ ul#nav li a:active { background-color: transparent !important; }
 
 
 .portfolio_image{
-   background-image: url(../images/purplehue.jpg);
+   background-image: url(../images/YESPLEASE.jpg);
+   width: 100%;
    padding-top: 225px;
    padding-bottom: 225px;
 
+}
+
+.white{
+   color: white;
 }
 /* Portfolio Content */
 #portfolio-wrapper .columns { margin-bottom: 36px; }

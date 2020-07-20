@@ -10,8 +10,7 @@ class Contact extends React.Component{
             <h1><span>Get In Touch.</span></h1>
           </div>
           <div className="ten columns">
-            <p className="lead">Feel free to contact me. Would love your feedback. 
-            </p>
+            <p className="lead">Feel free to contact me. Would love your feedback.</p>
           </div>
         </div>
         <section className="contact-page-container">

@@ -5,7 +5,7 @@ class Projects extends React.Component{
       return (
   <> 
         <section id="portfolio" className="portfolio_image">
-        <h2> Projects </h2>
+        <h2 className="white"> Projects </h2>
           <div className="row">
             <div className="twelve columns collapsed">
               <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
@@ -63,24 +63,11 @@ class Projects extends React.Component{
                 </div> {/* item end */}
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
-                    <a href="#modal-05" title>
-                      {/* <img alt="" src="images/GuessingGame.png"/> */}
+                    <a href="https://competent-minsky-a51fbe.netlify.app/" target="_blank" title>
+                      <img alt="" src="images/GATEWAY.png" />
                       <div className="overlay">
                         <div className="portfolio-item-meta">
-                          <h5>hi</h5>
-                        </div>
-                      </div>
-                      <div className="link-icon"><i className="icon-plus" /></div>
-                    </a>
-                  </div>
-                </div>
-                <div className="columns portfolio-item">
-                  <div className="item-wrap">
-                    <a href="https://sad-fermat-e2ca03.netlify.app/" target="_blank" title>
-                      <img alt="" src="images/GuessingGame.png" />
-                      <div className="overlay">
-                        <div className="portfolio-item-meta">
-                          <h5>Guessing Game</h5>
+                          <h5>Gateway</h5>
                         </div>
                       </div>
                       <div className="link-icon"><i className="icon-plus" /></div>
