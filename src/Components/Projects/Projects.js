@@ -1,21 +1,21 @@
 import React from 'react';
 
-class Projects extends React.Component{
-    render() {
-      return (
-  <> 
+class Projects extends React.Component {
+  render() {
+    return (
+      <>
         <section id="portfolio" className="portfolio_image">
-        <h2 className="white"> Projects </h2>
+          <h2 className="white"> Projects </h2>
           <div className="row">
             <div className="twelve columns collapsed">
               <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
-                    <a href="https://github-cards-2020.netlify.app/" target="_blank" title>
-                      <img alt="" src="images/GithubCards.png"/>
+                    <a href="https://competent-minsky-a51fbe.netlify.app/" target="_blank" title>
+                      <img alt="" src="images/GATEWAY.png" />
                       <div className="overlay">
                         <div className="portfolio-item-meta">
-                          <h5>Github Cards</h5>
+                          <h5>Gateway</h5>
                         </div>
                       </div>
                       <div className="link-icon"><i className="icon-plus" /></div>
@@ -63,11 +63,11 @@ class Projects extends React.Component{
                 </div> {/* item end */}
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
-                    <a href="https://competent-minsky-a51fbe.netlify.app/" target="_blank" title>
-                      <img alt="" src="images/GATEWAY.png" />
+                    <a href="https://github-cards-2020.netlify.app/" target="_blank" title>
+                      <img alt="" src="images/GithubCards.png" />
                       <div className="overlay">
                         <div className="portfolio-item-meta">
-                          <h5>Gateway</h5>
+                          <h5>Github Cards</h5>
                         </div>
                       </div>
                       <div className="link-icon"><i className="icon-plus" /></div>
@@ -116,9 +116,9 @@ class Projects extends React.Component{
               </div> {/* portfolio-wrapper end */}
             </div> {/* twelve columns end */}
           </div></section>
-          </>
-      );
-    }
-  };
+      </>
+    );
+  }
+};
 
 export default Projects;

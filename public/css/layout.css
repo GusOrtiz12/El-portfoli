@@ -225,6 +225,7 @@ ul#nav li a:active { background-color: transparent !important; }
 
 .white{
    color: white;
+   font-size: 50px;
 }
 /* Portfolio Content */
 #portfolio-wrapper .columns { margin-bottom: 36px; }
